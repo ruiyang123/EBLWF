@@ -20,12 +20,15 @@ Before you start the experiments, it is neccesaire to place the two datasets und
 
 Generally the directories for PACS looks like: 
 
+'''bash
 ./datasets/PACS
 ├── art_painting
 │   ├── dog
 ...
 ...
+'''
 
+'''bash
 For cifar100 : 
 
 ./datasets/cifar100
@@ -35,6 +38,7 @@ For cifar100 :
 ...
 ├── test
 ...
+'''
 
 
 
