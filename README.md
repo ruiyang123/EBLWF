@@ -1,9 +1,9 @@
 # EBLWF
 
 ## Requirements
-'''bash
+```bash
 $ pip3 install -r requirements.txt
-'''
+```
 
 ## Data Preparation
 
@@ -43,15 +43,16 @@ For cifar100 :
 ## Run experiments 
 
 For PACS you can run  
-'''bash
+```'bash
 $ sh Benchmark_PACS.sh
-'''
+```
 
 For cifar100 you can run  
-'''bash
+```bash
 $ sh Benchmark_cifar.sh
-'''
+```
 
 
+Some of our codes are from [https://github.com/GMvandeVen/continual-learning](https://github.com/GMvandeVen/continual-learning)
 
 
