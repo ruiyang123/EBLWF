@@ -16,5 +16,25 @@ You can download the dataset by using the following commands :
 $ pip install cifar2png
 $ cifar2png cifar100superclass path/to/cifar100png
 ```
-Before you start the experiments, it is neccesaire to place the two datasets in the folder "./datasets/"
+Before you start the experiments, it is neccesaire to place the two datasets under the directory "./datasets/"
+
+Generally the directories for PACS looks like: 
+
+./datasets/PACS
+├── art_painting
+│   ├── dog
+...
+...
+
+For cifar100 : 
+
+./datasets/cifar100
+├── train
+│   ├── fish
+│   │   ├── flatfish
+...
+├── test
+...
+
+
 
