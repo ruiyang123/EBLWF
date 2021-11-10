@@ -40,5 +40,18 @@ For cifar100 :
 ...
 ```
 
+## Run experiments 
+
+For PACS you can run  
+'''bash
+$ sh Benchmark_PACS.sh
+'''
+
+For cifar100 you can run  
+'''bash
+$ sh Benchmark_cifar.sh
+'''
+
+
 
 
