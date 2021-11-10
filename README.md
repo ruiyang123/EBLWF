@@ -1,7 +1,7 @@
 # EBLWF
 
 ## Requirements
-'''
+'''bash
 $ pip3 install -r requirements.txt
 '''
 
@@ -10,11 +10,11 @@ $ pip3 install -r requirements.txt
 PACS: you can get the PACS dataset from [https://github.com/MachineLearning2020/Homework3-PACS](https://github.com/MachineLearning2020/Homework3-PACS)
 
 Cifar100: In our experiments we use the .png version of cifar100.
-You can download the dataset by using the command :
+You can download the dataset by using the following commands :
 
 ```bash
 $ pip install cifar2png
+$ cifar2png cifar100superclass path/to/cifar100png
 ```
-
-`$ cifar2png cifar100superclass path/to/cifar100png`
+Before you start the experiments, it is neccesaire to place the two datasets in the folder "./datasets/"
 
