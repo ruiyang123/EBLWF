@@ -41,6 +41,7 @@ For cifar100 :
 ```
 
 ## Run experiments 
+More details about the experimental protocols are illustrated in [./cvpr2022_supplementary_material.pdf](A).
 
 For PACS you can run  
 ```'bash
@@ -51,6 +52,8 @@ For cifar100 you can run
 ```bash
 $ sh Benchmark_cifar.sh
 ```
+
+
 
 
 Some of our codes are from [https://github.com/GMvandeVen/continual-learning](https://github.com/GMvandeVen/continual-learning)
