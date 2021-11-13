@@ -41,7 +41,7 @@ For cifar100 :
 ```
 
 ## Run experiments 
-More details about the experimental protocols are illustrated in [./cvpr2022_supplementary_material.pdf](A).
+More details about the experimental protocols are illustrated in [./cvpr2022_supplementary_material.pdf](./cvpr2022_supplementary_material.pdf).
 
 For PACS you can run  
 ```'bash
