@@ -19,7 +19,7 @@ N = 3 # repetation times
 
 for i in range(N):
     for factor,tasks in factors.items():
-        methods =  ["naive", "eblwf", "cul", "oewc", "si", "er", "lwf", "mlwf"]
+        methods =  ["naive", "erlwf", "cul", "oewc", "si", "er", "lwf", "mlwf"]
         for method in methods:
             if method == "cul":
                 os.system("python main.py --factor {} --iters {} --savepath={} --optimizer=adam --tasks {} --cumulative 1 --batch {}".format(factor,iters,method,tasks,batch_size))
