@@ -170,7 +170,6 @@ class CifarDataset(Dataset):
             self.imgs.extend([Image.open(x).convert('RGB') for x in temp])
             self.labels.extend(labels)
             print("  --> batch{}'-dataset consisting of {} samples".format(batch_num, len(self)))
-            print(self.labels)
         else:
             self.imgs = []
             self.labels = []

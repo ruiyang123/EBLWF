@@ -173,8 +173,8 @@ if __name__ == "__main__":
     # DIL
     cifar100_task_order = {"domain0": 1, "domain1": 2, "domain2": 3, "domain3": 4, "domain4": 5}
     info_path = "./cifar100_info.csv"
-    cifar100_info = pd.read_csv(info_path)
-    df = simple_domain_split(cifar100_info,task_order=cifar100_task_order)
+    cifar_info = pd.read_csv(info_path)
+    df = simple_domain_split(cifar_info,task_order=cifar100_task_order)
     df.to_csv("./cifar_DIL.csv")
 
     # smooth-DIL

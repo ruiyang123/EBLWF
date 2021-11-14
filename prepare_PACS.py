@@ -159,8 +159,8 @@ def create_class_domain_split(df,task_num,mode):
 
 
 if __name__ == "__main__":
-    #source = "./datasets/PACS"
-    #get_dataset_info(source)
+    source = "./datasets/PACS"
+    get_dataset_info(source)
 
     # DIL
     Pacs_task_order = {"photo": 1, "cartoon": 2, "art_painting": 3, "sketch": 4}

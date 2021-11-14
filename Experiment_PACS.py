@@ -4,9 +4,10 @@ import pickle
 from data import get_multitask_experiment
 
 
-factors={"PACS_DIL":4}
-# ,"PACS_smoothDIL1":6,"PACS_smoothDIL2":6,"PACS_smoothDIL3":6,
-#          "PACS_CIL":7,"PACS_smoothCIL1":6,"PACS_smoothCIL2":6,"PACS_smoothCIL3":6}
+factors={"PACS_DIL":4 ,
+         "PACS_smoothDIL1":6,"PACS_smoothDIL2":6,"PACS_smoothDIL3":6,
+         "PACS_CIL":7,
+         "PACS_smoothCIL1":6,"PACS_smoothCIL2":6,"PACS_smoothCIL3":6}
 
 lr = 0.05
 batch_size = 8
