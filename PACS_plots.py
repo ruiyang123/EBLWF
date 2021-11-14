@@ -16,7 +16,7 @@ scenarios = {
                    "{}_smoothCIL3_result".format(dataset)]
 }
 
-methods = ["autolwf", "cul", "er", "lwf", "mlwf", "naive", "oewc", "si"]
+methods = ["erlwf", "cul", "er", "lwf", "mlwf", "naive", "oewc", "si"]
 
 results = {}
 for sce in scenarios.keys():
@@ -56,8 +56,8 @@ for sce in scenarios.keys():
         results[sce][method] = av_
 
         for task in range(len(av_)):
-            if method=="eblwf":
-                method="EB-lwf"
+            if method=="erlwf":
+                method="ER-lwf"
             row = {"method":method,"task_num":int(task),"Mean-accuracy":av_[task],"scenario":sce}
             df = df.append(row,ignore_index=True)
 

@@ -57,5 +57,3 @@ for i in range(N):
                     "python main.py --factor {} --iters {} --batch {} --si --savepath={} --optimizer=adam --tasks {} --c 0.95".format(
                         factor, iters, batch_size, method,
                         tasks))
-
-        os.system("python post_results.py --result-path ./{}_result --save-name {}".format(factor,factor))

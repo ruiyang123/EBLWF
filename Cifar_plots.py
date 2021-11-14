@@ -16,7 +16,7 @@ scenarios = {
                    "{}_smoothCIL3_result".format(dataset)]
 }
 
-methods = ["autolwf", "cul", "er", "lwf", "mlwf", "naive", "oewc", "si"]
+methods = ["erlwf", "cul", "er", "lwf", "mlwf", "naive", "oewc", "si"]
 
 results = {}
 for sce in scenarios.keys():

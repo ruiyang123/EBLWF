@@ -41,7 +41,7 @@ for i in range(N):
                 os.system(
                     "python main.py --factor {} --iters {} --replay=current --distill --savepath={} --reInitOptimizer 1 --batch {} --optimizer=adam --tasks {} ".format(factor,iters, method,batch_size,
                                                                                                                tasks))
-            elif method == "eblwf":
+            elif method == "erlwf":
                 os.system(
                     "python main.py --factor {} --iters {} --replay=current --distill --savepath={} --optimizer=adam --tasks {} --autolwf --reInitOptimizer 1 --batch {}".format(factor, iters, method,
                                                                                                                tasks,batch_size))
@@ -63,5 +63,3 @@ for i in range(N):
                     "python main.py --factor {} --iters {} --batch {} --si --savepath={} --optimizer=adam --tasks {} --c 0.95".format(
                         factor, iters, batch_size, method,
                         tasks))
-
-        os.system("python post_results.py --result-path ./{}_result --save-name {}".format(factor,factor))
