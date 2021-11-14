@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a0acef30-3127-460e-81ca-226d9b7d902b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data.py" beforeDir="false" afterPath="$PROJECT_DIR$/data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepare_PACS.py" beforeDir="false" afterPath="$PROJECT_DIR$/prepare_PACS.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepare_cifar100.py" beforeDir="false" afterPath="$PROJECT_DIR$/prepare_cifar100.py" afterDir="false" />
-    </list>
+    <list default="true" id="a0acef30-3127-460e-81ca-226d9b7d902b" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
