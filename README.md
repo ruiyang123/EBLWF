@@ -1,4 +1,4 @@
-# EBLWF
+# ERLWF
 
 ## Requirements
 ```bash
@@ -41,6 +41,10 @@ For cifar100 :
 ```
 
 ## Run experiments 
+Our codes is running in the python3 environment. We use **pyhon** to call python3 environment.
+If you are in the different situation, you should change all **python** to **python3** for Benchmark_PACS.sh, Benchmark_cifar.sh, Experiment_cifar.py, Experiment_PACS.py
+
+
 More details about the experimental protocols are illustrated in [./cvpr2022_supplementary_material.pdf](./cvpr2022_supplementary_material.pdf).
 
 For PACS you can run  
