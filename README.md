@@ -60,6 +60,4 @@ $ sh Benchmark_cifar.sh
 
 
 
-Some of our codes are from [https://github.com/GMvandeVen/continual-learning](https://github.com/GMvandeVen/continual-learning)
-
 

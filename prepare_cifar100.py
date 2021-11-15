@@ -190,7 +190,7 @@ if __name__ == "__main__":
 
     # CIL
     df =  class_split(df=cifar_info,task_num=10,mode="class_inc")
-    df.to_csv("./cifar_class_imb.csv")
+    df.to_csv("./cifar_CIL.csv")
 
     # smooth-CIL
     df = class_split(df=cifar_info,task_num=8,mode="random")
