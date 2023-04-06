@@ -44,14 +44,14 @@ For cifar100 :
 ```bash
 For FairWaste : 
 
-./datasets/cifar100
+./datasets/FairWaste
 ├── train
 │   ├── Acquisition-amas-mixte
 │   ├── Acquisition-bois-amas-mono
-│   |   ├── LineaireExterieur
-│   |   |   ├── .jpg
-│   |   ├── ScanLaser
-│   |   ├── Spectro
+│   │   ├── LineaireExterieur
+│   │   │   ├── .jpg
+│   │   ├── ScanLaser
+│   │   ├── Spectro
 ...
 ├── test
 ...
